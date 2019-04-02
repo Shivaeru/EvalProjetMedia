@@ -1,9 +1,7 @@
 body {
-
-
     font-family: 'PT Sans', sans-serif;
-
     font-family: 'Playfair Display', serif;
+    background-color: #e7bff2;
 
 }
 
@@ -68,7 +66,7 @@ body {
     line-height: 2.375rem;
     text-align: center;
     pointer-events: none;
-    color: blue;
+    color: rgb(162, 195, 233);
 }
 
 hr {
@@ -100,4 +98,55 @@ hr {
 	opacity: .5;
 }
 
+.pagination {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+button {
+    margin: 0% auto;
+    width: 10%;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #545456;
+    color : #f3defc;
+}
+
+a:link {
+    color: #e7bff2;
+  }
+
+footer a:visited {
+    color: #e7bff2;
+}
+
+/* FORMULAIRE */
+
+form {
+    margin: 5% auto;
+    width: 30%;
+}
+
+/* CATALOGUE */
+nav .breadcrumb {
+    background-color: #525252;
+}
+
+nav a:visited {
+    color: #e7bff2;
+}
+
+.rating {
+    list-style-type: none;
+    padding: 0;
+    color: #ffa000;
+}
+
+.fas {
+    display: inline-block;
+
+}
 
